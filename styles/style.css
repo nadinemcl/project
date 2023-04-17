@@ -26,3 +26,106 @@ header{
     background-color: white;
     padding: 10px;
 }
+table{
+    width: 100%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+}
+th,td,tr {
+    border: 1px solid white;
+    text-align: lefts;
+}
+.col_detail {
+    column-count: 3;
+    column-rule: 2px solid rgb(219, 12, 98);
+    column-gap: 50px;
+    padding: 2px;
+    text-align: justify;
+}
+
+footer ul li {
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding: 15px;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+footer {
+    clear: both;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: palevioletred;
+    text-align: center;
+}
+aside
+{
+    border: 1px solid palevioletred;
+    float: right;
+    width: 18%;
+}
+#Maincontent {
+    float: left;
+    width: 80%;
+    border: 1px solid rgb(237, 102, 145);
+}
+aside ul li {
+    list-style-type: none;
+}
+aside ul li a{
+    color: pink;
+    text-decoration: none;
+}
+body{
+    font-family: Verdana;
+    background-color:black;
+    color: white;
+}
+p {
+    text-align: justify;
+    padding: 2px;
+}
+.course {
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+}
+.videoContent {
+    float: right;
+    width: 49%;
+    border: 2px solid white;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Verdana, sans-serif;
+}
+.container{
+    width: 100%;
+    height:100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+h1{
+    color: palevioletred;
+    margin-bottom: 60px;
+}
+iframe {
+    width: 80%;
+    height: 500px;
+}
